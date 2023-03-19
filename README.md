@@ -24,7 +24,19 @@ hint text
 
 ## Card
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>card1</td><td></td></tr><tr><td></td><td>cards</td><td></td></tr><tr><td></td><td>Card3</td><td></td></tr></tbody></table>
+<table data-view="cards">
+<thead> <tr> <th></th> <th></th> <th></th> </tr> </thead>
+<tbody>
+  <tr> <td></td> <td>card1</td> <td></td> </tr>
+  <tr> <td></td> <td>cards</td> <td></td> </tr>
+  <tr> <td></td> <td>Card3</td> <td></td> </tr>
+</tbody>
+</table>
+
+|--|---|--|
+|  | 1 |  |
+|  | 2 |  |
+|  | 3 |  |
 
 ## Expended
 
