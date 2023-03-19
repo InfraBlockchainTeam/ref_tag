@@ -36,7 +36,7 @@ content
 
 </details>
 
-API(Swagger)
+## API(Swagger)
 
 {% swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
 {% swagger-description %}
