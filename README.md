@@ -1,5 +1,5 @@
 ---
-description: description
+description: description(opt)
 ---
 
 # Tags
@@ -43,11 +43,11 @@ content
 description(opt)
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="path_param" type="string" %}
+{% swagger-parameter in="path" name="path_param" type="string" required="false" %}
 desc.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="query_parma" %}
+{% swagger-parameter in="query" name="query_parma" required="false" %}
 desc.
 {% endswagger-parameter %}
 
@@ -60,3 +60,8 @@ desc.
 {% endswagger-response %}
 {% endswagger %}
 
+## Math
+
+$$
+f(x) = x * e^{2 pi i \xi x}
+$$
