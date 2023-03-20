@@ -30,23 +30,21 @@ tab2 content
 
 ## Hint
 
-```
-{ %hint style="info" %} hint text { %endhint %}
-```
+> {&#37; hint style="info" %} hint text {&#37; endhint %}
 
 {% hint style="info" %} hint text {% endhint %}
 
 ## Card
 
 ```
-  <table data-view="cards">
+<table data-view="cards">
   <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead>
   <tbody>
     <tr> <td></td> <td>Card1</td> <td></td> </tr>
     <tr> <td></td> <td>Card2</td> <td></td> </tr>
     <tr> <td></td> <td>Card3</td> <td></td> </tr>
   </tbody>
-  </table>
+</table>
 ```
 
 <table data-view="cards">
@@ -62,8 +60,8 @@ tab2 content
 
 ```
 <details>
-<summary>title</summary>
-content
+  <summary>title</summary>
+  content
 </details>
 ```
 
@@ -73,21 +71,32 @@ content
 </details>
 
 ## API(Swagger)
-<pre>
-{ %swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
-{ %swagger-description %} description(opt) { %endswagger-description %}
-{ %swagger-parameter in="path" name="path_param" type="string" required="false" %} desc. { %endswagger-parameter %}
-{ %swagger-parameter in="query" name="query_parma" required="false" %} desc. { %endswagger-parameter %}
 
-{ %swagger-response status="200: OK" description="desc" %}
-```javascript
-{
-    // Response body
-}
-```
-{ %endswagger-response %}
-{ %endswagger %}
-</pre>
+> {&#37; swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
+> 
+> {&#37; swagger-description %} description(opt) {&#37; endswagger-description %}
+> 
+> {&#37; swagger-parameter in="path" name="path_param" type="string" required="false" %} desc. {&#37; endswagger-parameter %}
+>
+> {&#37; swagger-parameter in="query" name="query_parma" required="false" %} desc. {&#37; endswagger-parameter %}
+> 
+> 
+> {&#37;  swagger-response status="200: OK" description="desc" %}
+> 
+> ```javascript
+> 
+> {
+> 
+>     // Response body
+>     
+> }
+> 
+> ```
+> 
+> {&#37; endswagger-response %}
+> 
+> {&#37; endswagger %}
+
 
 {% swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
 {% swagger-description %}
