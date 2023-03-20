@@ -9,12 +9,14 @@ description: description(opt)
 
 ## Tab
 
-```
- {&#37; tabs %}
-  {&#37; tab title="tab1" %} tab1 content {&#37; endtab %}
-  {&#37; tab title="tab2" %} tab2 content {&#37; endtab %}
-{ %endtabs %}
-```
+> {&#37; tabs %}
+> 
+>   {&#37; tab title="tab1" %} tab1 content {&#37; endtab %}
+>   
+>   {&#37; tab title="tab2" %} tab2 content {&#37; endtab %}
+>   
+> {&#37; endtabs %}
+
 
 {% tabs %}
 {% tab title="tab1" %}
