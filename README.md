@@ -4,15 +4,16 @@ description: description(opt)
 
 # Tags
 
+태그 문법 : `{% 태그명 %}` 내용 `{% end태그명 %}`
+이하 태그블럭은 `{ 태그명 %}`로 표기함.(gitbook 표기용)
+
 ## Tab
 
 ```
-<pre>
-{% tabs %}
-  {% tab title="tab1" %} tab1 content {% endtab %}
-  {% tab title="tab2" %} tab2 content {% endtab %}
-{% endtabs %}
-</pre>
+ { tabs %}
+  { tab title="tab1" %} tab1 content { endtab %}
+  { tab title="tab2" %} tab2 content { endtab %}
+{ endtabs %}
 ```
 
 {% tabs %}
@@ -27,11 +28,9 @@ tab2 content
 
 ## Hint
 
-<pre>
 ```
-{% hint style="info" %} hint text {% endhint %}
+{ hint style="info" %} hint text { endhint %}
 ```
-</pre>
 
 {% hint style="info" %} hint text {% endhint %}
 
@@ -73,19 +72,19 @@ content
 
 ## API(Swagger)
 <pre>
-{% swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
-{% swagger-description %} description(opt) {% endswagger-description %}
-{% swagger-parameter in="path" name="path_param" type="string" required="false" %} desc. {% endswagger-parameter %}
-{% swagger-parameter in="query" name="query_parma" required="false" %} desc. {% endswagger-parameter %}
+{ swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
+{ swagger-description %} description(opt) { endswagger-description %}
+{ swagger-parameter in="path" name="path_param" type="string" required="false" %} desc. { endswagger-parameter %}
+{ swagger-parameter in="query" name="query_parma" required="false" %} desc. { endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="desc" %}
+{ swagger-response status="200: OK" description="desc" %}
 ```javascript
 {
     // Response body
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{ endswagger-response %}
+{ endswagger %}
 </pre>
 
 {% swagger method="get" path="" baseUrl="https://test.com" summary="summary" %}
