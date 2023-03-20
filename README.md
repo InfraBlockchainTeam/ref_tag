@@ -4,16 +4,15 @@ description: description(opt)
 
 # Tags
 
-태그 문법 : `{% 태그명 %} 내용 {% end태그명 %}`
+태그 문법 : "{&#37; 태그명 %} 내용 {&#37; end태그명 %}"
 
-이하 태그블럭은 `{ % 태그명 %}`로 표기함.(gitbook 표기용)
 
 ## Tab
 
 ```
- { %tabs %}
-  { %tab title="tab1" %} tab1 content { %endtab %}
-  { %tab title="tab2" %} tab2 content { %endtab %}
+ {&#37; tabs %}
+  {&#37; tab title="tab1" %} tab1 content {&#37; endtab %}
+  {&#37; tab title="tab2" %} tab2 content {&#37; endtab %}
 { %endtabs %}
 ```
 
