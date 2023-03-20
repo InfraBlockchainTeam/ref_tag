@@ -6,12 +6,14 @@ description: description(opt)
 
 ## Tab
 
+```
 <pre>
 {% tabs %}
   {% tab title="tab1" %} tab1 content {% endtab %}
   {% tab title="tab2" %} tab2 content {% endtab %}
 {% endtabs %}
 </pre>
+```
 
 {% tabs %}
 {% tab title="tab1" %}
@@ -26,7 +28,9 @@ tab2 content
 ## Hint
 
 <pre>
+```
 {% hint style="info" %} hint text {% endhint %}
+```
 </pre>
 
 {% hint style="info" %} hint text {% endhint %}
