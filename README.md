@@ -125,6 +125,14 @@ $$
 $$f(x) = x * e^{2 pi i \xi x}$$
 
 ## Mermaid
+<pre>
+```mermaid
+sequenceDiagram
+
+a->>b:test
+b--)a: reqponse
+```
+</pre>
 
 ```mermaid
 sequenceDiagram
